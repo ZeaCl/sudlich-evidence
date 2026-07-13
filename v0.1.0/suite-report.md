@@ -9,14 +9,14 @@
 | Test | Descripción | Resultado |
 |---|---|---|
 | [F-01a](f-01a/report.md) | Sidebar click Fondos → iframe carga | ✅ PASS |
-| F-07 | Estado vacío (0 fondos) | ⬜ Pendiente |
+| [F-07](f-07/report.md) | Estado vacío — 0 fondos muestra mensaje | ✅ PASS |
 | F-11 | "+ Crear Fondo" click real | ⬜ Pendiente |
 | F-12 | Wizard completo end-to-end | ⬜ Pendiente |
 | F-17 | Resume wizard | ⬜ Pendiente |
 
 ## Resumen
 
-- **Total**: 1/5 implementados con evidencia
-- **Pass**: 1
+- **Total**: 2/5 implementados con evidencia
+- **Pass**: 2
 - **Fail**: 0
-- **Pendientes**: 4
+- **Pendientes**: 3
