@@ -9,15 +9,16 @@
 
 Verifica que al hacer click real en el botón "+ Crear Fondo" desde la página de fondos, el sistema navega al wizard de creación y muestra el paso 1 (Identidad) con sus campos.
 
-A diferencia de F-05 que solo verificaba el atributo `href`, este test hace **click real** y verifica que la navegación ocurre y el wizard carga.
+**Navegación vía sidebar** (flujo real): click en MANAGEMENT → Fondos → iframe → click "+ Crear Fondo" dentro del iframe → wizard carga.
 
 ## Capturas
 
 | Paso | Archivo | Descripción |
 |---|---|---|
-| 1 | `01-funds-table.png` | Página de fondos con tabla de 4 fondos |
-| 2 | `02-create-btn-highlighted.png` | Botón "+ Crear Fondo" resaltado antes del click |
-| 3 | `03-wizard-step1.png` | Wizard cargado: paso 1 "Identidad" con formulario |
+| 1 | `01-sidebar-fondos-highlighted.png` | Sidebar con MANAGEMENT expandido, "Fondos" resaltado |
+| 2 | `02-funds-page-with-sidebar.png` | UI completa: sidebar + tabla de fondos en sección central |
+| 3 | `03-create-btn-in-iframe.png` | Botón "+ Crear Fondo" resaltado dentro del iframe |
+| 4 | `04-wizard-with-sidebar.png` | UI completa: sidebar + wizard paso 1 "Identidad" cargado |
 
 ## Verificaciones
 
