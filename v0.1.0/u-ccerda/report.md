@@ -1,6 +1,6 @@
 # U-CCERDA — Acceso Camila Cerda
 
-- **Fecha**: 2026-07-14 02:47 UTC
+- **Fecha**: 2026-07-14 02:50 UTC
 - **Entorno**: Producción (`https://sudlich.zea.cl`)
 - **Resultado**: ✅ PASS
 
@@ -17,6 +17,7 @@
 ## Credenciales
 
 - **Email**: ccerda@sudlich.cl
+- **Contraseña**: Sudlich2026!
 - **Rol**: `fund_management:gp_admin` (read, write)
 
 ## Capturas
@@ -26,6 +27,6 @@
 | 01 | 01-landing-screen.png | Landing screen con botón Iniciar Sesión |
 | 02 | 02-login-form-filled.png | Formulario de login |
 | 03 | 03-shell-loaded.png | CraniumShell cargado |
-| 04 | 04-sidebar-management-expanded.png | Sidebar MANAGEMENT expandido |
+| 04 | 04-sidebar-management.png | Sidebar MANAGEMENT |
 | 05 | 05-funds-page.png | Página de Fondos con "+ Crear Fondo" |
 | 06 | 06-sidebar-workflows-expanded.png | Sidebar WORKSPACE con Workflows expandido |
