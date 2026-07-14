@@ -1,6 +1,6 @@
 # F-12 — Wizard completo end-to-end
 
-- **Fecha**: 2026-07-14 02:18 UTC
+- **Fecha**: 2026-07-14 02:35 UTC
 - **Entorno**: Producción (`https://sudlich.zea.cl`)
 - **Resultado**: ✅ PASS
 
@@ -31,6 +31,7 @@
 | auth_token no propagado al worker | Südlich #196, #197 | `cerebelum@82a7759` + `ebbcc5f` |
 | create_fund no extraía named_results | Südlich #198 | `sudlich@4cc2239` |
 | wizard no detectaba completed (status→state) | Südlich #195 | `sudlich@84919bd` |
+| Paso 4 no mostraba datos (result wrapper SDK) | Südlich #195 | `sudlich@4bbe928` (stepData helper) |
 
 ## Capturas
 
@@ -38,10 +39,11 @@
 |---|---|---|
 | 01 | 01-shell-loaded.png | CraniumShell cargado post-login |
 | 02 | 02-funds-page.png | Página de fondos vía sidebar |
-| 03 | 03-wizard-step1-filled.png | Paso 1 — Identidad del fondo |
-| 04 | 04-wizard-step2-filled.png | Paso 2 — Parámetros financieros |
-| 05 | 05-wizard-step3.png | Paso 3 — Ciclo de vida |
-| 06 | 06-wizard-step4-review.png | Paso 4 — Revisión y Activación |
-| 07 | 07-wizard-success.png | ✅ Fondo creado exitosamente |
-| 08 | 08-funds-table-with-new-fund.png | Tabla de fondos actualizada |
-| 09 | 09-fund-highlighted-in-table.png | Fondo resaltado en la tabla |
+| 03 | 03-wizard-step1-filled.png | Paso 1 — Identidad con datos |
+| 04 | 04-wizard-step2-filled.png | Paso 2 — $75M, fee 2%, carried 20% |
+| 05 | 05-wizard-step3.png | Paso 3 — Ciclo de vida (12+60+48 meses) |
+| 06 | 06-wizard-step4-review.png | Paso 4 — Revisión con TODOS los datos ✅ |
+| 07 | 07-funds-table-with-new-fund.png | Tabla de fondos actualizada post-creación |
+| 08 | 08-fund-highlighted-in-table.png | Fondo resaltado en la tabla |
+
+> ⚠️ La pantalla de éxito "✅ Fondo creado" dura 1.5s antes del redirect, no se capturó en esta ejecución.
